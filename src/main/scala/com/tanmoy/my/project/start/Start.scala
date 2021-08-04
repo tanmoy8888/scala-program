@@ -2,11 +2,11 @@ package com.tanmoy.my.project.start
 
 import org.apache.spark.sql.SparkSession
 
-class StartProject {
+class Start {
 
 }
 
-object  StartProject{
+object  Start{
   def main(args: Array[String]): Unit = {
     println("Spark Execution Started")
 
