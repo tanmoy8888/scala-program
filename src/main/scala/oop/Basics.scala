@@ -5,9 +5,7 @@ class Employee(name:String,val title:String){
   def this(name:String) = this(name,"Mukherjee")
 }
 
-class Animal with FoodHabits with Type{
-  override  def foodhabits = ""
-}
+
 object Basics {
   def main(args: Array[String]): Unit = {
     val emp = new Employee("Tanmoy","Mukherjee")
